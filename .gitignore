@@ -27,5 +27,24 @@ Thumbs.db
 # Data directory (user files)
 data/
 
-# Brain artifacts (conversation artifacts)
+# Brain artifacts
 .gemini/
+
+# Exclude documentation and project files
+*.md
+!README.md
+project*.md
+CASING_*.md
+CHANGELOG.md
+DONE.md
+EXAMPLES.md
+FEATURES.md
+IMPLEMENTATION_SUMMARY.md
+QUICKSTART*.md
+QUICK_REFERENCE.md
+
+# Exclude test files
+test_*.py
+
+# Exclude setup scripts
+setup.sh
